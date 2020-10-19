@@ -36,11 +36,11 @@ class SlideProjects extends Component {
     return (
       <div id='slide-id'>
         { cardSlider }
-        <div className='slide-tumbnail'>
-          {slideTumbnail}
-        </div>
         <div className='slide-position'>
           {slideDots}
+        </div>
+        <div className='slide-tumbnail'>
+          {slideTumbnail}
         </div>
       </div>
     )
