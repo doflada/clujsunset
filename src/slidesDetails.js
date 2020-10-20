@@ -1,8 +1,18 @@
 export const slidesDetails = [
   {
+    id: 1,
+    slideName: "./pictureSunset/2020m01.jpg",
+    title: "January 2020",
+  },
+  {
     id: 2,
     slideName: "./pictureSunset/2020m02.jpg",
     title: "February 2020",
+  },
+  {
+    id: 3,
+    slideName: "./pictureSunset/2020m03.jpg",
+    title: "March 2020",
   },
   {
     id: 4,
