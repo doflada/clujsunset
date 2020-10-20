@@ -40,6 +40,17 @@
 	padding: 1px 0;
 }
 
+.dotTumbnail:hover:not(.active) {
+	  background-color: #717171;
+		transform: scale(1.1);
+		cursor: pointer;
+}
+
+.activeTumbnail {
+	  background-color: #717171;
+		opacity: 0.5;
+}
+
 .imgTumbnail {
 	height: 60px;
   width: 90px;

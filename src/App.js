@@ -17,6 +17,7 @@ class App extends Component {
       let i;
       let slides = document.getElementsByClassName("slide-projects");
       let dots = document.getElementsByClassName("dot");
+      let dotsTumbnail = document.getElementsByClassName("dotTumbnail");
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
@@ -31,10 +32,12 @@ class App extends Component {
       };
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
+        dotsTumbnail[i].className = dotsTumbnail[i].className.replace(" activeTumbnail", "");
       };
       if (slides.length > 0) {
         slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
+        dotsTumbnail[slideIndex-1].className += " activeTumbnail";
         vtime = setTimeout(this.showSlides, 3000);
       };
   };
