@@ -1,10 +1,8 @@
 #slide-id {
-	width: 97vw;
-	height: 97vh;
+	height: 100%;
 	position: relative;
 	display: flex;
   flex-direction: column;
-  justify-content: space-between;
 	margin: 0;
 }
 
@@ -12,18 +10,16 @@
 	border-radius: 15px;
 	box-shadow: 3px 3px 5px black,
 	            inset 5px 5px 8px black;
-	position: absolute;
 	width: 100%;
-	top: 90%;
+	margin-top: 7px;
 }
 
 .slide-position {
 	border-radius: 15px;
 	box-shadow: 3px 3px 5px black,
 	            inset 5px 5px 8px black;
-	position: absolute;
 	width: 100%;
-	top: 86%;
+	margin-top: 7px;
 }
 
 .dotTumbnail {
@@ -78,10 +74,3 @@
 .active {
 	  background-color: #717171;
 }
-
-/* @media only screen and (max-width: 800px) {
-	#slide-id {
-		width: 97vw;
-		height: 40vh;
-	}
-} */

@@ -1,21 +1,14 @@
 .slide-projects {
-	border-radius: 15px;
-	box-shadow: 3px 3px 5px black,
-	            inset 5px 5px 8px black;
- 	top: 0;
-	left: 0;
+	width: 100%;
+	height: 70%;
 	display: none;
 }
 
 .slide-images {
 	border: 1px solid black;
 	border-radius: 5px;
-	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
-	height: auto;
-	max-height: 85%;
+	height: 100%;
 }
 
 .title-projects {
@@ -47,9 +40,3 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-
-/* @media only screen and (max-width: 800px) {
-	.slide-projects img {
-		max-width: 97vw;
-	}
-} */

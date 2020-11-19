@@ -1,7 +1,8 @@
 .App {
+  width: 97vw;
+	height: 100vh;
   text-align: center;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
